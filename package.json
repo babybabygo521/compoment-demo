@@ -3,7 +3,7 @@
   "version": "0.1.0",
   "private": false,
   "scripts": {
-    "lib": "vue-cli-service build --target lib --name pikaz-compoment --dest lib src/index.js",
+    "lib": "vue-cli-service build --target lib --name compoment-demo --dest lib src/index.js",
     "serve": "vue-cli-service serve",
     "push": "node script.js && npm run lib && git add . && git commit -m 'commit' && git push"
   },
