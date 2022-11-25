@@ -2,6 +2,7 @@
   "name": "compoment-demo",
   "version": "0.1.0",
   "private": false,
+  "main": "lib/compoment-demo.umd.min.js",
   "scripts": {
     "lib": "vue-cli-service build --target lib --name compoment-demo --dest lib src/index.js",
     "serve": "vue-cli-service serve",
