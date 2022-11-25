@@ -5,7 +5,7 @@
   "scripts": {
     "lib": "vue-cli-service build --target lib --name compoment-demo --dest lib src/index.js",
     "serve": "vue-cli-service serve",
-    "push": "node script.js && npm run lib && git add . && git commit -m 'commit' && git push"
+    "push": "node script.js && npm run lib && git add . && git commit -m 'commit' && git push  --set-upstream origin main"
   },
   "dependencies": {
     "core-js": "^3.8.3",
